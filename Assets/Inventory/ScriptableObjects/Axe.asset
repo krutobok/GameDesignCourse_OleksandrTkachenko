@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96acf7346335bdf458df497cbd819dc9, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: 
+  itemName: Sword
+  itemId: 3
+  icon: {fileID: 21300000, guid: 47b5b5645dacdf94e9a3739d72289c79, type: 3}
+  itemType: 0
+  isStackable: 0
+  maxStackSize: 0
+  groupedPrefab: 0
+  prefab: {fileID: 539329750732921434, guid: be5ed311a0339c44599b268412830402, type: 3}

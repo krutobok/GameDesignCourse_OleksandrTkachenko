@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e4bdf20481bc0d4a8ee610c12e52985, type: 3}
+  m_Name: polo2
+  m_EditorClassIdentifier: 
+  id: 2
+  baseName: Manchester united
+  baseImage: {fileID: 21300000, guid: 47b5b5645dacdf94e9a3739d72289c79, type: 3}
+  possibleBrands:
+  - Liverpool
+  - Nike
+  - Adidas
+  - Puma
+  - none
+  basePrice: 280
+  weightMin: 130
+  weightMax: 220
+  itemType: 0
+  possibleColors:
+  - {fileID: 2100000, guid: 308fd62373b9781468328843f6c5075b, type: 2}
+  - {fileID: 2100000, guid: 6e08340ac1f374942a9902cfbf5232d4, type: 2}
+  itemPrefab: {fileID: 5410596862121391548, guid: 045a9da007f2cf7459bef93434d75595, type: 3}

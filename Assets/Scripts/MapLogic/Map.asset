@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cf2d62ed011844d8c41700ec6df584, type: 3}
+  m_Name: Map
+  m_EditorClassIdentifier: 
+  nodes:
+  - locationName: second1
+    sceneName: TestSecond
+    connections:
+    - targetLocation: second2
+      walkTime: 10
+      busTime: 7
+      carTime: 5
+  - locationName: second2
+    sceneName: TestSecond2
+    connections:
+    - targetLocation: second1
+      walkTime: 10
+      busTime: 7
+      carTime: 5

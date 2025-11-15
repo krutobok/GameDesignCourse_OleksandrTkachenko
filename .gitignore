@@ -1,0 +1,70 @@
+# Цей файл .gitignore згенеровано GitHub для Unity
+# https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# Вміст, згенерований Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Файли пам'яті (MemoryCaptures)
+/[Mm]emory[Cc]aptures/
+
+# Файли, пов'язані з автозбереженням
+/[Aa]ssets/AutoSave/
+
+# Папка .unityrecorder (для Unity Recorder)
+/[Aa]ssets/UnityRecorder/
+
+# Файли Visual Studio (генеровані Unity)
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Файли Rider (JetBrains)
+.idea/
+*.sln.DotSettings.user
+
+# Файли VS Code
+.vscode/
+
+# Файли, згенеровані MacOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Файли збірки (Build artifacts)
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Файли, які можуть генеруватися при збірці Windows, Mac, Linux
+*.exe
+*.dll
+*.so
+*.bundle
+*.dylib
+
+# Папка з кешем пакетів
+/[Ll]ibrary/PackageCache/
+/[Ll]ibrary/Packages/
+/[Ll]ibrary/ScriptAssemblies/
+/[Ll]ibrary/Search/
